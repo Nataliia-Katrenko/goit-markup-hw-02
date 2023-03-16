@@ -142,7 +142,6 @@ li {
    line-height: 1.2;
    text-align: center;
    letter-spacing: 0.02em;
-   text-transform: capitalize;
    color: var(--color-link);
 }
 
@@ -162,7 +161,9 @@ li {
 .team-text {
    font-size: 16px;
    line-height: 1.5;
+   text-align: center;
    letter-spacing: 0.02em;
+   color: var(--color-main);
 }
 .footer {
    background: var(--color-link);
