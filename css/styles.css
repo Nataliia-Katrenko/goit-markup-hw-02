@@ -27,14 +27,11 @@ li {
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   color: #4d5ae5;
    }
 
-   .web {
-      color: #4D5AE5;
-   }
-
-   .studio {
-      color: #2E2F42;
+   .studio-top {
+      color: #2e2f42;
    }
 
    .header-link {
@@ -45,24 +42,24 @@ li {
    color: #2E2F42;
 }
 
-.header-link:is(:hover, :focus){
+.header-link:is( :hover, :focus){
    color: #404bbf;
 }
 
-.header-mailto {
+.header-address {
    font-style: normal;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   cursor: pointer;
 }
 
-.header-tel {
-   font-style: normal;
+.address {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    cursor: pointer;
+   color: #434455;
+}
+
+.address:is( :hover, :focus){
+   color: #404bbf;
 }
 
 .hero {
@@ -77,13 +74,14 @@ li {
    color: #FFFFFF;
 }
 .hero-btn {
+   font-family: "Roboto", sans-serif;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
    color: #FFFFFF;
    cursor: pointer;
-   background-color: #4D5AE5
+   background: #4D5AE5;
 }
 
 .hero-btn.btn:is(:hover, :focus) {
@@ -127,9 +125,15 @@ li {
 .team {
    background: #F4F4FD;
 }
+
+.item-list {
+   background-color: #FFFFFF
+}
+
 .team-title {
-   font-size: 36px;
-   line-height: 1.11;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
    text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
@@ -182,9 +186,6 @@ li {
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-}
-
-.web-top {
    color: #4D5AE5;
 }
 
