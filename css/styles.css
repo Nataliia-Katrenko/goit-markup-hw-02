@@ -84,7 +84,7 @@ li {
    background: #4D5AE5;
 }
 
-.hero-btn.btn:is(:hover, :focus) {
+.hero-btn:is( :hover, :focus) {
    background-color: #404BBF;
 }   
 
@@ -132,8 +132,8 @@ li {
 
 .team-title {
    font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
+   font-size: 36px;
+   line-height: 1.11;
    text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
@@ -150,6 +150,7 @@ li {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2E2F42;
+   background-color: #FFFFFF;
 }
 
 .team-text {
@@ -223,7 +224,7 @@ li {
    cursor: pointer;
 }
 
-.header-tel:is(:hover, :focus){
+.header-tel:is( :hover, :focus){
    color: #4D5AE5;
 }
 
