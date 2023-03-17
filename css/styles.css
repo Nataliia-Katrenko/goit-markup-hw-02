@@ -128,11 +128,6 @@ body{
 .team {
    background: #F4F4FD;
 }
-
-.item-link {
-   background-color: #FFFFFF;
-}
-
 .teams-title {
    font-size: 36px;
    line-height: 1.11;
@@ -140,6 +135,9 @@ body{
    letter-spacing: 0.02em;
    text-transform: capitalize;
    color: var(--color-link);
+}
+.team-list {
+   background-color: #FFFFFF;
 }
 
 .team-title {
@@ -150,9 +148,12 @@ body{
    letter-spacing: 0.02em;
    color: var(--color-link);
 }
-
-.items-team {
-   background: #FFFFFF;
+.team-text {
+   font-size: 16px;
+   line-height: 1.5;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: var(--color-main);
 }
 
 .team-list {
@@ -164,13 +165,6 @@ body{
    background-color: #FFFFFF;
 }
 
-.team-text {
-   font-size: 16px;
-   line-height: 1.5;
-   text-align: center;
-   letter-spacing: 0.02em;
-   color: var(--color-main);
-}
 .footer {
    background: var(--color-link);
 }
